@@ -1,2 +1,16 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# CSS force
+*.css linguist-language=CSS
+*.css linguist-detectable=true
+
+# HTML force
+*.html linguist-language=HTML
+*.html linguist-detectable=true
+
+# JavaScript force
+*.js linguist-language=JavaScript
+*.js linguist-detectable=true
